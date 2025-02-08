@@ -1,0 +1,51 @@
+/* Step 4: Remove default margins and paddings */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Step 5: Add vertical spacing between rows in the second table */
+.table2 {
+    border-spacing: 0 20px;
+}
+
+/* Step 6: Create classes for content boxes */
+.box1 {
+    background-color: darkred;
+    text-align: center;
+}
+
+.box2 {
+    background-color: deeppink;
+    text-align: center;
+}
+
+.box3 {
+    background-color: brown;
+    text-align: center;
+}
+
+/* Step 7: Style text inside the boxes */
+.box_text_color {
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+/* Step 8: Standardize image sizes */
+.td_image_width {
+    width: 570px;
+}
+
+.td_image_width img {
+    width: 570px;
+    height: 400px;
+    display: block;
+}
+
+/* Step 9: Style paragraphs */
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #3d3d3d;
+}
