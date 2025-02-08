@@ -1,8 +1,25 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(42, 40, 40);
+    padding:15px
+}
+.navbar:hover{
+    background-color: #333;
+}
+.navbar a{
+    color: white;
+    font-size: 12px;
+    padding: 20px 30px;
+}
+.navbar a:hover{
+    background-color: #bdbbbb; 
+}
 .Container{  
     display: flex;
     flex-direction: row;
 }
- 
+
 .item {
     flex: 1;
 
